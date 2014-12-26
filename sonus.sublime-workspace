@@ -519,6 +519,62 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/Closca/Sonus/Helpers.php",
+			"settings":
+			{
+				"buffer_size": 1257,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tests/SonusTest.php",
+			"settings":
+			{
+				"buffer_size": 2983,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tests/HelpersTest.php",
+			"settings":
+			{
+				"buffer_size": 922,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Closca/Sonus/Facade.php",
+			"settings":
+			{
+				"buffer_size": 313,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Closca/Sonus/SonusServiceProvider.php",
+			"settings":
+			{
+				"buffer_size": 720,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 5358,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/Closca/Sonus/Sonus.php",
+			"settings":
+			{
+				"buffer_size": 18621,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -547,7 +603,16 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/sonus"
+		"/C/xampp/htdocs/sonus",
+		"/C/xampp/htdocs/sonus/public",
+		"/C/xampp/htdocs/sonus/src",
+		"/C/xampp/htdocs/sonus/src/Closca",
+		"/C/xampp/htdocs/sonus/src/Closca/Sonus",
+		"/C/xampp/htdocs/sonus/src/config",
+		"/C/xampp/htdocs/sonus/src/controllers",
+		"/C/xampp/htdocs/sonus/src/lang",
+		"/C/xampp/htdocs/sonus/src/migrations",
+		"/C/xampp/htdocs/sonus/src/views"
 	],
 	"file_history":
 	[
@@ -696,6 +761,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Rafasamp",
 			"getProbePath",
 			"getConverterPath",
 			"onfig::get('sonus::ffmpeg')",
@@ -822,8 +888,7 @@
 			"pending",
 			"studio_form_step3",
 			"form_step2",
-			"studio_form_step3",
-			"form_step2"
+			"studio_form_step3"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -831,6 +896,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Closca",
 			"'.',\",\"",
 			"'.',\"'\"",
 			"'.',' ')",
@@ -881,8 +947,216 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/Closca/Sonus/Helpers.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1257,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								489,
+								489
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tests/SonusTest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11,
+								17
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tests/HelpersTest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 922,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								412,
+								412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Closca/Sonus/Facade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								313,
+								313
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/Closca/Sonus/SonusServiceProvider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5358,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1222,
+								1222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/Closca/Sonus/Sonus.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								515,
+								515
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1859.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1543,7 +1817,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 649.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

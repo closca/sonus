@@ -281,7 +281,7 @@ class Sonus
         }
 
         // Execute thumbnail generator command
-        $command = self::getConverterPath().' -i '.$input.' -vf "select=gt(scene\,0.5)" -frames:v '.$count.' -vsync vfr '.$output.'%02d.png';
+        $command = self::getConverterPath().' -i '.$input.' -vf "select=gt(scene\,0.5)" -frames:v '.$count.' -vsync vfr '.$output.'%02d.'.$format;
         shell_exec($command);
         return true;
     }
