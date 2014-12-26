@@ -70,7 +70,11 @@ Sonus can also return media information as an array or json
 
 Sonus can also easily generate smart movie thumbnails like this
 
-    Sonus::getThumbnails('foo.mp4', 'foo-thumb' 5); // Yields 5 thumbnails
+    Sonus::getThumbnails('foo.mp4', 'foo-thumb', 5); // Yields 5 thumbnails
+
+Sonus can also thumbnify your movie (create thumbs for a short preview)
+
+    Sonus::thumbnify('foo.mp4', 'foo-thumb', 40, '400'); // Yields 40 thumbnails (every 10 seconds) and video has 400 secs
 
 Although Sonus contains several preset parameters, you can also pass your own
 
@@ -134,11 +138,6 @@ Please make sure the following statements are true before opening an issue:
 
 Usually all concerns are taken care of by following these two steps. If you still find yourself having issues you can always open a trouble ticket.
 
-## Planned features
-
-* Support for [filters](http://ffmpeg.mplayerhq.hu/ffmpeg-filters.html)
-* Setting metadata
-* Return meaningful error codes on exceptions
 
 ## License
 

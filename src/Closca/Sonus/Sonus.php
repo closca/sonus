@@ -281,10 +281,38 @@ class Sonus
         }
 
         // Execute thumbnail generator command
-        $command = self::getConverterPath().' -i '.$input.' -vf "select=gt(scene\,0.5)" -frames:v '.$count.' -vsync vfr '.$output.'%02d.'.$format;
+        $command = self::getConverterPath().' -i '.$input.' -vf "select=gt(scene\,0.5)" -frames:v '.$count.' -vsync vfr '.$output.'-%02d.'.$format;
         shell_exec($command);
         return true;
     }
+
+    /**
+     * Retrieves video thumbnails 
+     * @param  string  $input  video input
+     * @param  string  $output output filename
+     * @param  integer $count  number of thumbnails to generate
+     * @param  integer $duration video duration
+     * @param  string  $format thumbnail format
+     * @return boolean
+     */
+    public static function thumbnify($input,$output, $count=5, $duration, $format = 'png')
+    {
+        //Get the timings for thumbs
+        $total=$duration/$count;
+        $total=round($total);
+
+        // Return false if user requests 0 frames or round function fails
+        if ($count < 1) 
+        {
+            return false;
+        }
+
+        // Execute thumbnail generator command
+        $command = self::getConverterPath().' -i '.$input.' -vf fps=fps=1/'.$total.' '.$output.'-%02d.'.$format;
+        shell_exec($command);
+        return true;
+    }
+
 
     /**
      * Input files
