@@ -1,10 +1,13 @@
 # Sonus (Laravel 4 Package)
-[![Latest Stable Version](https://poser.pugx.org/rafasamp/sonus/v/stable.png)](https://packagist.org/packages/rafasamp/sonus)
-[![Build Status](https://travis-ci.org/rafasamp/sonus.png?branch=master)](https://travis-ci.org/rafasamp/sonus)
-[![Total Downloads](https://poser.pugx.org/rafasamp/sonus/downloads.png)](https://packagist.org/packages/rafasamp/sonus)
-[![ProjectStatus](http://stillmaintained.com/rafasamp/sonus.png)](http://stillmaintained.com/rafasamp/sonus)
-[![License](https://poser.pugx.org/rafasamp/sonus/license.png)](https://packagist.org/packages/rafasamp/sonus)
+[![Latest Stable Version](https://poser.pugx.org/closca/sonus/v/stable.png)](https://packagist.org/packages/closca/sonus)
+[![Build Status](https://travis-ci.org/closca/sonus.png?branch=master)](https://travis-ci.org/closca/sonus)
+[![Total Downloads](https://poser.pugx.org/closca/sonus/downloads.png)](https://packagist.org/packages/closca/sonus)
+[![ProjectStatus](http://stillmaintained.com/closca/sonus.png)](http://stillmaintained.com/closca/sonus)
+[![License](https://poser.pugx.org/closca/sonus/license.png)](https://packagist.org/packages/closca/sonus)
 
+
+**** NOTE ****
+This is a duplicate of https://github.com/rafasamp/sonus. I have duplicated because the original package was  abandoned and i nedeed more stuffs for working with videos on Laravel.
 Sonus is a tool designed to leverage the power of **Laravel 4** and **ffmpeg** to perform tasks such as:
 
 * Audio/Video conversion
@@ -17,39 +20,39 @@ Sonus is a tool designed to leverage the power of **Laravel 4** and **ffmpeg** t
 
 Update your `composer.json` file and add the following under the `require` key
 
-	"rafasamp/sonus": "dev-master"
+	"closca/sonus": "dev-master"
 
 Run the composer update command:
 
 	$ composer update
 
-In your `config/app.php` add `'Rafasamp\Sonus\SonusServiceProvider'` to the end of the `$providers` array
+In your `config/app.php` add `'Closca\Sonus\SonusServiceProvider'` to the end of the `$providers` array
 
     'providers' => array(
 
         'Illuminate\Foundation\Providers\ArtisanServiceProvider',
         'Illuminate\Auth\AuthServiceProvider',
         ...
-        'Rafasamp\Sonus\SonusServiceProvider',
+        'Closca\Sonus\SonusServiceProvider',
 
     ),
 
-Still under `config/app.php` add `'Sonus' => 'Rafasamp\Sonus\Facade'` to the `$aliases` array
+Still under `config/app.php` add `'Sonus' => 'Closca\Sonus\Facade'` to the `$aliases` array
 
     'aliases' => array(
 
         'App'             => 'Illuminate\Support\Facades\App',
         'Artisan'         => 'Illuminate\Support\Facades\Artisan',
         ...
-        'Sonus'           => 'Rafasamp\Sonus\Facade',
+        'Sonus'           => 'Closca\Sonus\Facade',
 
     ),
 
 Run the `artisan` command below to publish the configuration file
 
-	$ php artisan config:publish Rafasamp/Sonus
+	$ php artisan config:publish Closca/Sonus
 
-Navigate to `app/config/packages/Rafasamp/Sonus/config.php` and update all four parameters
+Navigate to `app/config/packages/Closca/Sonus/config.php` and update all four parameters
 
 ### Examples
 
@@ -91,6 +94,11 @@ Now you can write a controller action to return the progress for the job id you 
     {
         return Sonus::getProgress('uniqueid');
     }
+
+
+### Getting video informations in json
+
+    Sonus::input('foo.mp4')->getVideoJsonDetails();
 
 ### Security and Compatibility
 
@@ -140,4 +148,4 @@ Sonus is free software distributed under the terms of the MIT license.
 
 Any questions, feel free to contact me.
 
-Any issues, please [report here](https://github.com/rafasamp/sonus/issues)
+Any issues, please [report here](https://github.com/closca/sonus/issues)
