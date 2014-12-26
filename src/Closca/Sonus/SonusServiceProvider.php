@@ -18,7 +18,7 @@ class SonusServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('Closca/sonus');
+		$this->package('closca/sonus');
 	}
 
 	/**
