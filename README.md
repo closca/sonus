@@ -2,7 +2,7 @@
 [![Latest Stable Version](https://poser.pugx.org/closca/sonus/v/stable.png)](https://packagist.org/packages/closca/sonus)
 [![Build Status](https://travis-ci.org/closca/sonus.png?branch=master)](https://travis-ci.org/closca/sonus)
 [![Total Downloads](https://poser.pugx.org/closca/sonus/downloads.png)](https://packagist.org/packages/closca/sonus)
-[![ProjectStatus](http://stillmaintained.com/closca/sonus.png)](http://stillmaintained.com/closca/sonus)
+[![ProjectStatus](https://stillmaintained.com/closca/sonus.png)](https://stillmaintained.com/closca/sonus.png)
 [![License](https://poser.pugx.org/closca/sonus/license.png)](https://packagist.org/packages/closca/sonus)
 
 
