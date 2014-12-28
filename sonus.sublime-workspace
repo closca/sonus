@@ -563,7 +563,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 5358,
+				"buffer_size": 5398,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "src/Closca/Sonus/Sonus.php",
 			"settings":
 			{
-				"buffer_size": 19513,
+				"buffer_size": 19514,
 				"line_ending": "Windows"
 			}
 		}
@@ -761,6 +761,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"thumb",
+			"convert",
 			"Rafasamp",
 			"getProbePath",
 			"getConverterPath",
@@ -886,8 +888,6 @@
 			"step1",
 			"whereStatus",
 			"pending",
-			"studio_form_step3",
-			"form_step2",
 			"studio_form_step3"
 		],
 		"highlight": true,
@@ -1065,7 +1065,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1094,7 +1094,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1103,15 +1103,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5358,
+						"buffer_size": 5398,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1222,
-								1222
+								1272,
+								1272
 							]
 						],
 						"settings":
@@ -1121,10 +1121,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 406.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1133,15 +1133,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19513,
+						"buffer_size": 19514,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7969,
-								7969
+								7640,
+								7645
 							]
 						],
 						"settings":
@@ -1151,7 +1151,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3585.0,
+						"translation.y": 3165.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1727,6 +1727,10 @@
 		"selected_items":
 		[
 			[
+				"foc",
+				"C:\\xampp\\htdocs\\focadmin\\focadmin.sublime-project"
+			],
+			[
 				"focad",
 				"C:\\xampp\\htdocs\\focadmin\\focadmin.sublime-project"
 			],
@@ -1753,10 +1757,6 @@
 			[
 				"onfakt",
 				"C:\\xampp\\htdocs\\onfaktura\\onfaktura.sublime-project"
-			],
-			[
-				"foc",
-				"C:\\xampp\\htdocs\\foc\\foc.sublime-project"
 			],
 			[
 				"onfak",

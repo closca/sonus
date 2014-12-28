@@ -100,10 +100,6 @@ Now you can write a controller action to return the progress for the job id you 
     }
 
 
-### Getting video informations in json
-
-    Sonus::input('foo.mp4')->getVideoJsonDetails();
-
 ### Security and Compatibility
 
 Sonus uses PHP's [shell_exec](http://us3.php.net/shell_exec) function to perform ffmpeg and ffprobe commands. This command is disabled if you are running PHP 5.3 or below and [safe mode](http://us3.php.net/manual/en/features.safe-mode.php) is enabled.
