@@ -716,4 +716,14 @@ class Sonus
         return true;
     }
 
+    public function getVideoJsonDetails()
+    {
+        $ffprobe = self::getProbePath();
+        $input  = implode(' ', $this->input);
+        $arg1=" -loglevel error -show_format -show_streams";
+        $arg2=" -print_format json";
+        $cmd = escapeshellcmd($ffprobe.' '.$arg1.' '.$input.' '.$arg2);
+        return shell_exec($cmd);
+    }
+    
 }

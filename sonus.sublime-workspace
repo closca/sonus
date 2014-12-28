@@ -563,7 +563,7 @@
 			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 5398,
+				"buffer_size": 5305,
 				"line_ending": "Windows"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "src/Closca/Sonus/Sonus.php",
 			"settings":
 			{
-				"buffer_size": 19514,
+				"buffer_size": 19083,
 				"line_ending": "Windows"
 			}
 		}
@@ -761,6 +761,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"json",
 			"thumb",
 			"convert",
 			"Rafasamp",
@@ -887,8 +888,7 @@
 			"studio_form_step2",
 			"step1",
 			"whereStatus",
-			"pending",
-			"studio_form_step3"
+			"pending"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -947,7 +947,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1103,15 +1103,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5398,
+						"buffer_size": 5305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1272,
-								1272
+								1865,
+								1865
 							]
 						],
 						"settings":
@@ -1121,10 +1121,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 406.0,
+						"translation.y": 477.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1133,15 +1133,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19514,
+						"buffer_size": 19083,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7640,
-								7645
+								19081,
+								19081
 							]
 						],
 						"settings":
@@ -1151,10 +1151,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3165.0,
+						"translation.y": 9619.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
