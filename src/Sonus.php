@@ -19,7 +19,7 @@ class Sonus
      */
     protected static function getConverterPath()
     {
-        return Config::get('sonus::ffmpeg');
+        return config('sonus.ffmpeg');
     }
 
     /**
@@ -28,7 +28,7 @@ class Sonus
      */
     protected static function getProbePath()
     {
-        return Config::get('sonus::ffprobe');
+        return config('sonus.ffprobe');
     }
 
     /**
@@ -37,7 +37,7 @@ class Sonus
      */
     protected static function getTempPath()
     {
-        return Config::get('sonus::tmp_dir');
+        return config('sonus.tmp_dir');
     }
 
     /**
@@ -568,7 +568,7 @@ class Sonus
         $cmd = escapeshellcmd($ffmpeg.' '.$input.' '.$arg.' '.$output);
 
         // Check if progress reporting is enabled
-        if (Config::get('sonus::progress') === true) 
+        if (config('sonus.progress') === true) 
         {
             // Get temp dir
             $tmpdir = self::getTempPath();
