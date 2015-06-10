@@ -21,7 +21,10 @@ Sonus is a tool designed to leverage the power of **Laravel 4** and **ffmpeg** t
 Update your `composer.json` file and add the following under the `require` key
 
 	"closca/sonus": "dev-master"
+For Laravel 5 use
 
+    "closca/sonus": "dev-l5"
+    
 Run the composer update command:
 
 	$ composer update
