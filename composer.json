@@ -5,10 +5,6 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Carlo Villamayor",
-            "email": "carlo.villamayor@gmail.com"
-        },
-        {
             "name": "Rafael Sampaio",
             "email": "rafaelsampaio@live.com"
         },
@@ -17,8 +13,20 @@
             "email": "closca.costel@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
-        "laravel/framework": "5.0.*"
-    }
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Closca\\Sonus\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
