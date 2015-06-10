@@ -14,7 +14,7 @@ class SonusServiceProvider extends ServiceProvider {
 		/* Config */
 		$this->mergeConfigFrom(__DIR__.'/../config/sonus.php', 'sonus'); 
 		$this->publishes([
-		    __DIR__.'/../config/sonus.php' => config_path('sonus.php'),
+		    __DIR__.'/../config/sonus.php' => config_path('sonus.php'),'config'
 		]);
 	}
 
