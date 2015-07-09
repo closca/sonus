@@ -53,7 +53,7 @@ Still under `config/app.php` add `'Sonus' => 'Closca\Sonus\Facade'` to the `$ali
 
 Run the `artisan` command below to publish the configuration file
 
-	$ php artisan config:publish Closca/Sonus
+	$ php artisan config:publish closca/sonus
 
 Navigate to `app/config/packages/Closca/Sonus/config.php` and update all four parameters
 
